@@ -7,8 +7,9 @@ various languages.
 
 All benchmarks were run on an M2 macbook air
 
-Language   | Time
---------------------
-Rust       | 50 µs
-JavaScript | 158 µs
-Ruby       | 1534 µs
+| Language   | Time    | Notes
+|------------|---------|--------
+| Rust       | 51 µs   |
+| JavaScript | 158 µs  |
+| Python     | 1019 µs |
+| Ruby       | 1534 µs |
