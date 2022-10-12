@@ -1,0 +1,12 @@
+{
+  "name": "tak-bench",
+  "version": "1.0.0",
+  "description": "Tak benchmark",
+  "main": "tak_bench.js",
+  "scripts": {
+    "bench": "node tak_bench.js"
+  },
+  "dependencies": {
+    "nanobench": "^3.0.0"
+  }
+}
