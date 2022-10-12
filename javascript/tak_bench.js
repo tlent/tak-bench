@@ -14,6 +14,8 @@ function tak(x, y, z) {
 
 bench("Tak", b => {
     b.start();
-    tak(18, 12, 6);
+    for (let i = 0; i < 10000; i++) {
+        tak(18, 12, 6);
+    }
     b.end();
 });

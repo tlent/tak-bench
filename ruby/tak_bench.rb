@@ -12,4 +12,4 @@ def tak(x, y, z)
   end
 end
 
-puts Benchmark.measure { tak(18, 12, 6) }
+puts Benchmark.measure { 10_000.times { tak(18, 12, 6) } }
